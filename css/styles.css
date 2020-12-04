@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Prompt', sans-serif;
+    color: #3b3a3a;
+    font-size: 4em;;
+}
+h5,h3{
+    font-family: 'Prompt', sans-serif;
+    color: #3b3a3a;
+    font-weight: 600;
+}
+h3{
+    padding: 5%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    vertical-align: middle;
+}
+.navbar-light .navbar-brand{
+    color:  rgb(19, 19, 212);
+}
+.navbar-brand{
+    font-weight: 600;
+    font-size: 2em;
+}
+.nav-item{
+    font-size: 1.15em;
+    font-weight: 600;
+    color: #000;
+}
+.videobox{
+    background-image: url('videobg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2.5%;
+    border-radius: 1em;
+    background-position: left;
+}
+.heading{
+    text-align: center;
+    padding-top: 10%;
+}
+.imp-text{
+    color:  rgb(19, 19, 212);
+}
+#cards{
+    padding-top: 5%;
+    padding-left: 10px;
+    padding-right:10px;
+    text-align: center;
+}
+.card-img{
+    background-color: coral;
+    position: left;
+
+}
+.sub-heading{
+    padding: 5%;
+    padding-top: 7%;
+    padding-bottom: 2.5%;
+}
+.text{
+    padding: 5%;
+    padding-top: 0%;
+    padding-bottom: 2%;
+    font-size: 1.25em;
+}
+.vectorimg{
+    margin-left: 50%;
+}
+.circular{
+    border-radius: 50%;
+    margin: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.middle{
+    text-align: center;
+    align-items: center;
+}
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin: 10px;
+    border: none;
+    background-color: darkgrey;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+  }
+.carousel-indicators .active {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: rgb(19, 19, 212);
+}
+.carousel-indicators {
+    bottom: -50px;
+}
+.tile{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+.tile span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color:  rgb(19, 19, 212);
+    font-family: 'Prompt', sans-serif;
+}
+.col5{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.col5 span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color:  rgb(19, 19, 212);
+    padding-left: 70%;
+    font-family: 'Prompt', sans-serif;
+}
+.comment{
+    margin: 0;
+}
+.btn{
+    text-align: center;
+}
+td{
+    font-size: 0.75em;
+}
+td .sub-heading{
+    font-size: 1.5em;
+    margin-bottom: 1%;
+}
+.carousel-item td{
+    padding-top: 20%;
+}
+#carousel .btn{
+    margin-top: 5%;
+} 
+#comments .btn{
+    margin-top: 5%;
+}
+.tile{
+    border-radius: 20%;
+}
